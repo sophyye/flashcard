@@ -1,26 +1,54 @@
-<header> 
-  <h1>Confere Aí</h1> 
-  <nav> 
-    <a href="#">Início</a> 
-  </nav> 
-</header> 
-<main> 
-  <h2>Descubra a verdade passando o mouse</h2> 
-  <section> 
-    <article> 
-      <div> 
-        <div> 
-          <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim" class="cartao-imagem"> 
-          <p>Pinguins conseguem voar como pássaros!</p> 
-        </div> 
-        <div class="cartao-verso"> 
-          <img src="https://static.nationalgeographicbrasil.com/files/styles/image_3200/public/mm1012723121410486.jpg?w=1900&h=2849" alt="Pinguim" class="cartao-imagem"> 
-          <p>Pinguins não voam, mas são excelentes nadadores.</p> 
-        </div> 
-      </div> 
-    </article> 
-  </section> 
-</main> 
-<footer> 
-  <p>Projeto feito por Sophye Pasa Pelaquim</p> 
-</footer> 
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Flashcards de Mitos e Verdades</title>
+<link rel="stylesheet" href="style.css"><!--chamar a folha de estilo css-->
+</head>
+
+<body>
+<!--cabeçalho-->
+<header class="cabecalho"><!--inserir a classe na div-->
+<h1>Confere Aí</h1>
+<nav>
+<a href="#">Início</a>
+</nav>
+</header>
+<!--area principal-->
+<main class="cartao"><!--inserir a classe na div-->
+<h2>Descubra a verdade passando o mouse</h2>
+<section>
+<article>
+<div class="cartao-interno"><!--inserir a classe na div-->
+<div class="cartao-frente"><!--inserir a classe na div-->
+<!--noticia falsa-->
+<img
+
+src="https://upload.wikimedia.org/wikipedia/commons/5/56/00_2103_Pinguin_-
+_Petermann_Island_%28Antarktische_Halbinsel%29.jpg"
+
+alt="Pinguim" class="cartao-imagem"><!--inserir a classe na img-->
+<p>Pinguins conseguem voar como pássaros!</p>
+</div>
+<div class="cartao-verso"><!--inserir a classe na div-->
+<!--noticia verdadeira-->
+<img
+
+src="https://upload.wikimedia.org/wikipedia/commons/5/56/00_2103_Pinguin_-
+_Petermann_Island_%28Antarktische_Halbinsel%29.jpg"
+
+alt="Pinguim" class="cartao-imagem"><!--inserir a classe na img-->
+<p>Pinguins não voam, mas são excelentes nadadores.</p>
+</div>
+</div>
+</article>
+</section>
+</main>
+<footer class="rodape"><!--inserir a classe na div-->
+<p>Projeto feito por [Seu Nome]</p>
+</footer>
+</body>
+
+</html>
