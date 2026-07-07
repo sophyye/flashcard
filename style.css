@@ -53,7 +53,7 @@ transform: rotateY(180deg);
 .cartao-frente, .cartao-verso {
 position: absolute;
 border-radius: 12px;
-box-shadow: 0 6px 12px rgb(219, 113, 184);
+box-shadow: 0 6px 12px rgb(194, 3, 130);
 backface-visibility: hidden;
 }
 .cartao-verso {
